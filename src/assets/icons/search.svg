@@ -1,0 +1,17 @@
+<svg width="30.000000" height="30.000000" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<pattern id="pattern_21_3860" patternContentUnits="objectBoundingBox" width="1.000000" height="1.000000">
+			<use xlink:href="#image21_386_0" transform="matrix(0.02,0,0,0.02,0,0)"/>
+		</pattern>
+		<image id="image21_386_0" width="50.000000" height="50.000000" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABHNCSVQICAgIfAhkiAAAAt9JREFUaIHtmb9rFEEUxz+xiBGDICJ6hQaSgIFUNoKFyZ1HGlvLxBAQgkL+Bw8t/NHbayGInbnjkoCN2pgodjGx80ejxBQSUe9OPIvZhOPN3O7N7tuNIfeBB5kL+/2+d8POvJmDLl1SoSfh8zngEjAOjAIDwJHgf9+Bj8Aq8ByoAl8S+qmTByrAH6DZYTSAMjCWfbo2w8AinSffLqrAUMa57zAN/IhI0Ce2gKlMKwBuhiT0DrgNFIEzwOEgRoLP7gBrIc+XsiriVpsEloGCh8554GUbrZJeum6mHaY1YJZ4K14PcC3QkLqTCvk6GcZ+J74BFxS0x4BNob0FDCpoW8jVqYZOEduMA3XhUVHUB8w+Iad+VtsEuO7w0fyyqAjxVyTvAlz0ACvCa15LPIfZhVvFx7XEHRSEVwM4oSF8VQivaohGsC48Z3wFDjg+k9++2lSH8FSM874CrkJGxfiZr2gMpIfMIRJXIQNi/NlXNAafInKIhdx1+zVEI+gXnr99BVwzIklj2ZXIPBpJBcC0Cq3kfEVjID02fAVchXwQ41O+ojE4LcZffQVchch9Y8JXNAbS462GqNwQ1zREI3gvPC9riJ7EblHyGsJtKAqvGnBMS7wsxJdJr2l8I7weahqMCfEm5mSnzZzD56y2SVUY1NG9kypgH6weKervMITZU1qNNtFp6fPYR90N4LiCtpMp7KmvY052cS8f5rBnogm8AHqTp9yeksO0CbwGLnroFLFfbBlVoE8pbyelEPN14C5mUxvBNID9wd8TwD3sfSIs5kl5Ziax35m0ogwcTLOYQeyLCd/4CzwBlna7GDBXNvPYHUBY/AIeA+cCjT5gIeKZShbFgLntmAEeYF7+DUyL8RNzslwB7gNXgKOO5/+rYpLSi90SyVgg5dVMi06KWaRbTPbsu2KWgEO7laAPnaxmmf/+GJewmbmxi3nFwlXMnitim9Zi9mwR2/SR4o+lXbqE8A8+frE98I/pkAAAAABJRU5ErkJggg=="/>
+	</defs>
+	<mask id="mask21_386" mask-type="alpha" maskUnits="userSpaceOnUse" x="0.000000" y="0.000000" width="30.000000" height="30.000000">
+		<rect id="Search" width="30.000000" height="30.000000" fill="url(#pattern_21_3860)" fill-opacity="1.000000"/>
+	</mask>
+	<g mask="url(#mask21_386)">
+		<rect id="Search" width="30.000000" height="30.000000" fill="#FD1548" fill-opacity="1.000000"/>
+	</g>
+</svg>

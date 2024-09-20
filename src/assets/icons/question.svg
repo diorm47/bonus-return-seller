@@ -1,0 +1,13 @@
+<svg width="9.500000" height="9.500000" viewBox="0 0 9.5 9.5" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<pattern id="pattern_872_57680" patternContentUnits="objectBoundingBox" width="1.000000" height="1.000000">
+			<use xlink:href="#image872_5768_0" transform="matrix(0.01,0,0,0.01,0,0)"/>
+		</pattern>
+		<image id="image872_5768_0" width="100.000000" height="100.000000" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAABHNCSVQICAgIfAhkiAAABJdJREFUeJztnU1oXFUUx3+J9SsxaWj9iopWRVKpEVpR0UVFKKIb3elKrQtFEcUPcCMiCIoLUbDrSsWVoqAU24WKFBURP2sLkSpGmmpbPxqrqUmbmHFxMjSLcTrzzrnnvftyfnDIIrn3/e/5z5t5c++5NxAEQRAEQRAEQRAEQXXoKVtAh5wKjALrFn5eBFwADC/8rh84BZgCZoFDwC/AXmAM2Al8Cez3Fl4nVgL3A1uRRDcM4lvgBeAax3Fkz3XA68AMNib8X4wBDwF9PsPKjyuBbaQ1oVUcBB4GlqUfYh6cBjwLHMPfjMWxE7gq8Vgrz/nAZ5RrxOKYQe6WJcka5EmobBNaxSagN93Qq8ca5L277MS3i83k87VAxVnAT5Sf8E7i6TQpqA69wAeUn+hOYx7YkCQTFeEByk9ytzEBDKZIRitO8roQ8lb1DvKYmxODwL/Ah2ULseY50ryCZ4HJRH03Ywo40z4l5TEAHMYmOePAM8ANwNCia/QC5wG3AS9jb9JjhvkonY3oE3IIuJvOpzj6gSeBowbXbgC7Co28oryPLhm7gVUFr70W+FV5/WZcWFBDpTgd3cztBLL2oWEtMK3Q0Ix7lDpOiMf0wPXIIlJR7gP2KTV8DTyv7APgCoM+Sudxir8i3zPUMYD+LnnXUE9LPO6Q1Yq2W6xEAH8jn2Uakj/6ehiyqmC7eWT51pLvlO0HTFS0wcOQoRP/SUv2AX9ZCgF+U7ZvmKhog4chywu2GzdVIfQr2/9poqINHuvIj1AsEQeshSDf5DVMmqhog4ch2xyu0SlXK9t/b6KiDUtpmXI1Utmi4QsLIYHwCvpv6pe5q64pNyGP0RozvnJXXVNGkZli7d3xqLfwOrIe+B29GZPACmfttaIHeBC7tZAnfOXXi2FkEtDCiAawB1lCCLqkB7gLm7eoZkwjaylBl1wOfIydEQ3kqWyj4xhqwcnAU9jvJZlH9o4EXXA2sANbIxrAHGFG14wi+wetzfgDuNlxHLVghDSV858ClzqOoxacg1ShWBpxBFki8CyrrQ1vY2vGVuBi1xHUiDuwM2IvcKuv/PrxDTZmvEHMS6nZgN6IWeQggsCATejMmCEeZ03ZRXEz5pHPn8CIPnSrfVvcFdecSyhuxjHgXH/Jxcmh6kST0O2kqe9KRg6GaDaJ7jBT4UQOhswo2o6ZqXAiB0OOKtoeNlPhRA6G/KNoq7m7SiEHQ6bLFuBJDqeoHQRuL9h23FJIEARBEARBEARBECQnx3NpB5HT5K5FCufOQLasTQAfISdlz5WmbgmxHHgJOUSm3Srhj8C95Pliy4YR4Ae6W759C/knL4ExK+jejGZsLkFv7XkRXU3Wen/J9aUPqU7XGPKmu+oacws6MxrIHvNsthpUfcVwxKCPITKqzaq6IVZV6iuN+klO1Q05YtTPlFE/yam6IT8b9DFHZtWLVWYY/bFKn7irVlD1O2Q/+rN2X7MQEhxnHcVP9dmNnPYQGHMn8lnQjRkHiH3nSbkRmcntxIzt6I+EDTpgGVLF+CpS2T7J8aeoz5Hpee1RsEEQBEEQBEEQBEEQBAv8B0HLn+TldnpMAAAAAElFTkSuQmCC"/>
+	</defs>
+	<circle id="Ellipse 32" cx="4.750000" cy="4.750000" r="4.500000" stroke="#000000" stroke-opacity="1.000000" stroke-width="0.500000"/>
+	<rect id="Question Mark" x="1.449219" y="1.450195" width="6.600000" height="6.600000" fill="url(#pattern_872_57680)" fill-opacity="1.000000"/>
+</svg>
