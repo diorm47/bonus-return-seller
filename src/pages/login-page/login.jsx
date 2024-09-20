@@ -210,7 +210,7 @@ function Login() {
             <div className="login_form_input">
               <input
                 type="text"
-                placeholder="Введите логин"
+                placeholder="Введите e-mail или номера телефона"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
               />
