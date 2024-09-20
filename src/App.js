@@ -3,13 +3,13 @@ import { useDispatch } from "react-redux";
 import { Route, Routes, useLocation } from "react-router-dom";
 import Footer from "./components/footer/footer";
 import NavBar from "./components/nav-bar/nav-bar";
-import Home from "./pages/home/home";
+
 import Login from "./pages/login-page/login";
 import Sellers from "./pages/sellers/sellers";
 import { loginUserAction } from "./redux/user-reducer";
 import { mainApi } from "./components/utils/main-api";
 import Cashback from "./pages/cashback/cashback";
-import Coupon from "./pages/coupon/coupon";
+
 import SellersDashboard from "./pages/dashboard-seller/dashboard-seller";
 
 function App() {
@@ -48,11 +48,7 @@ function App() {
       <div className="pages_content">
         <Routes>
           <Route path="/" element={<SellersDashboard />} />
-          {/* <Route path="/" element={<Home />} /> */}
-          {/* <Route path="/sellers" element={<Sellers />} /> */}
-          {/* <Route path="/cashback" element={<Cashback />} />
-          <Route path="/coupon" element={<Coupon />} />*/}
-          <Route path="/login" element={<Login />} /> 
+          <Route path="/login" element={<Login />} />
           <Route path="/sellers" element={<SellersDashboard />} />
         </Routes>
       </div>

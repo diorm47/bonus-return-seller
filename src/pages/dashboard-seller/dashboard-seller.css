@@ -43,9 +43,21 @@
   cursor: pointer;
 }
 .cashback_stores_lists_seller {
+  display: flex;
   justify-content: start;
   gap: 10px;
+  margin-top: 29px;
   margin-bottom: 36px;
+}
+.cashback_stores_lists_seller img {
+  width: 68px;
+  height: 68px;
+  border-radius: 10px;
+  cursor: pointer;
+  border: 2px solid transparent;
+}
+.selected_platform {
+  border: 2px solid rgb(0, 0, 0) !important;
 }
 
 .seller_header_actions button:nth-child(1) {
@@ -192,10 +204,18 @@
   border-radius: 10px;
 }
 
-.add_seller_token button:nth-child(1) {
+.add_seller_token input {
   width: 100%;
   max-width: 476px;
-
+  height: 50px;
+  color: rgb(0, 0, 0);
+  font-family: Open Sans;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 110%;
+  letter-spacing: 0%;
+  text-align: center;
+  border-radius: 10px;
   border: 1px solid rgb(0, 0, 0);
   background: transparent;
 }
@@ -236,7 +256,6 @@
 }
 
 .support_block_seller {
- 
   margin-bottom: 100px !important;
 }
 
@@ -406,7 +425,7 @@
   margin-bottom: 10px;
   display: flex;
   align-items: center;
-  gap: 40px;
+  gap: 60px;
 }
 
 .all_product_item_desc img {
@@ -465,14 +484,14 @@
   display: flex;
   align-items: center;
 
-  gap: 40px;
+  gap: 43px;
 }
 .all_product_item_revs {
   display: flex;
   align-items: start;
   gap: 30px;
 }
-.all_product_item_revs p:nth-child(1) {
+.all_product_item_revs p{
   width: 143px;
 }
 
@@ -540,5 +559,5 @@
 }
 
 .seller_carousel_wrapper {
-    padding-top: 100px;
+  padding-top: 100px;
 }

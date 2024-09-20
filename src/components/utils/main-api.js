@@ -65,82 +65,46 @@ class MainApi {
     });
   }
 
-  // //////////////////////////////////////////////////////////////////////////////
-  async tgLogin(userData) {
-    return this._sendRequest({
-      endpoint: `/client/telegram-auth/`,
-      method: "POST",
-      body: userData,
-    });
-  }
-  async getCPILinks() {
-    return this._sendRequest({
-      endpoint: `/website/get-cpi-web-site-located-links/`,
-      method: "GET",
-    });
-  }
-  async getCPILinksPage(type) {
-    return this._sendRequest({
-      endpoint: `/website/get-cpi-links/?bonus_promo_type=${type}`,
-      method: "GET",
-    });
-  }
-  async getTopTen() {
-    return this._sendRequest({
-      endpoint: `/website/get-top-10-high-cashback-in-platforms/`,
-      method: "GET",
-    });
-  }
-  async applyFeddCash(userData) {
-    return this._sendRequest({
-      endpoint: `/website/apply-for-feedback-cashback/`,
-      method: "POST",
-      body: userData,
-      requiresToken: true,
-    });
-  }
-  async applyPromo(userData) {
-    return this._sendRequest({
-      endpoint: `/website/apply-for-promo_code-cashback/`,
-      method: "POST",
-      body: userData,
-      requiresToken: true,
-    });
-  }
-  async applySellerCon(userData) {
-    return this._sendRequest({
-      endpoint: `/website/apply-for-seller-connection/`,
-      method: "POST",
-      body: userData,
-      requiresToken: true,
-    });
-  }
-  async homeSearch(userData) {
-    return this._sendRequest({
-      endpoint: `/website/search/?q=${userData}`,
-      method: "GET",
-
-      requiresToken: true,
-    });
-  }
+  // platforms
   async getPlatforms() {
     return this._sendRequest({
-      endpoint: `/website/get-platforms/`,
-      method: "GET",
-    });
-  }
-  async getCategories() {
-    return this._sendRequest({
-      endpoint: `/website/get-cpi-categories/`,
-      method: "GET",
-    });
-  }
-  async applyConsulting(userData) {
-    return this._sendRequest({
-      endpoint: `/website/sellers/apply-for-consulting/`,
+      endpoint: `/personal_area/get-platforms/`,
       method: "POST",
-      body: userData,
+    });
+  }
+
+  // check token
+  async postToken(data) {
+    return this._sendRequest({
+      endpoint: `/personal_area/wb-api-statistics-token/check-n-save`,
+      method: "POST",
       requiresToken: true,
+      body: data,
+    });
+  }
+
+  // products & products actions
+  async getProducts() {
+    return this._sendRequest({
+      endpoint: `/personal_area/get-applies-table/`,
+      method: "GET",
+      requiresToken: true,
+    });
+  }
+  async confrimFeedback(data) {
+    return this._sendRequest({
+      endpoint: `/personal_area/confirm-apply/`,
+      method: "POST",
+      requiresToken: true,
+      body: data,
+    });
+  }
+  async rejectFeedback(data) {
+    return this._sendRequest({
+      endpoint: `/personal_area/reject-apply/`,
+      method: "POST",
+      requiresToken: true,
+      body: data,
     });
   }
 }
