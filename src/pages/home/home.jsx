@@ -9,7 +9,7 @@ import { ReactComponent as TalkToUs } from "../../assets/icons/talk-tous.svg";
 import { ReactComponent as VK } from "../../assets/icons/vk.svg";
 import megamarket from "../../assets/images/mega.png";
 import { ReactComponent as Phone } from "../../assets/images/phone.svg";
-import "../../components/card/card.css";
+import "../../components/card/card.css"; 
 import "./home.css";
 
 import right_arrow from "../../assets/icons/Right Arrow.png";
