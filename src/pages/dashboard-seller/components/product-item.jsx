@@ -52,7 +52,7 @@ function ProductItem({ item, platforms }) {
     <>
       <div className="all_product_item">
         <div className="all_product_item_desc">
-          <img src={img} alt="" />
+          <img src={item.product_image_url} alt="" />
           <div>
             <p>
               <b>{item.title}</b>
@@ -74,7 +74,7 @@ function ProductItem({ item, platforms }) {
             </p>
           </div>
           <div>
-            <p className="main_text">{item.feedback_amount || 0}</p>
+            <p className="main_text">{item.promocode_amount || 0}</p>
             <p>
               <b>новый</b>
             </p>

@@ -1,10 +1,8 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import "./dashboard-seller.css";
 
 import rect from "../../assets/icons/Rectangle 205.png";
 import support from "../../assets/images/support.png";
-
-
 
 import SellerCarousel from "../../components/seller-carousel/seller-carousel";
 import AddMarket from "./components/add-market";
@@ -13,6 +11,7 @@ import ScanSeller from "./components/scan-seller";
 import JoinUs from "../../components/join-us/join-us";
 
 function SellersDashboard() {
+  const [isVerified, setisVerified] = useState();
   const refresh = () => {
     fetch("https://api-seller.bonusreturn.ru/api/v1/seller/get-me/", {
       method: "GET",
@@ -21,7 +20,7 @@ function SellersDashboard() {
       },
     })
       .then((response) => response.json())
-      .then((data) => console.log(data))
+      .then((data) => setisVerified(data.data.is_verified))
       .catch((error) => console.log(error));
   };
 
@@ -33,7 +32,7 @@ function SellersDashboard() {
     <div className="sellers_dash container">
       <AddMarket />
 
-      <ScanSeller refresh={refresh} />
+      <ScanSeller refresh={refresh} isVerified={isVerified} />
 
       <div className="seller_carousel_wrapper container">
         <div className="support_block_title">
@@ -143,8 +142,6 @@ function SellersDashboard() {
           <p>Бонусы с чека</p>
         </div>
       </div>
-
-   
 
       <AllProducts />
 
